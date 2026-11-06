@@ -1,6 +1,6 @@
 #!/bin/bash
 echo "[*] start"
-echo target ip
+echo "target ip:"
 read TARGET
 curl -s "http://ip-api.com/json/${TARGET}" > output.txt
 echo "[+]check output.txt"
