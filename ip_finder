@@ -2,5 +2,5 @@
 echo "[*] start"
 echo target ip
 read TARGET
-curl -s "http://ip-api.com/json/${TARGET}" >> output.txt
+curl -s "http://ip-api.com/json/${TARGET}" > output.txt
 echo "[+]check output.txt"
