@@ -15,6 +15,6 @@ A simple and fast Bash script to perform IP adress geolocation and OSINT reconna
    '''
 
 ### Features
--Dynamic user input target selection.
--Automated API querying using 'curl'.
--Outputs saved into 'output.txt'.
+Dynamic user input target selection.
+Automated API querying using 'curl'.
+Outputs saved into 'output.txt'.
